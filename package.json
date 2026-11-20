@@ -1,0 +1,15 @@
+{
+  "name": "sagrika-sahil-journey-to-forever",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "assets": "node scripts/build-assets.mjs",
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host",
+    "check": "node scripts/check-assets.mjs",
+    "test": "node scripts/smoke.mjs"
+  },
+  "devDependencies": { "sharp": "^0.33.5", "vite": "^5.4.10" }
+}
